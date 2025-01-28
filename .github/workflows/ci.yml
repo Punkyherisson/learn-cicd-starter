@@ -21,11 +21,11 @@ jobs:
       - name: Run Tests with Coverage
         run: go test -cover ./...
 
-    style:
+  style:
       name: Style
       runs-on: ubuntu-latest
 
-    steps:
+      steps:
       - name: Check out code
         uses: actions/checkout@v4
 
